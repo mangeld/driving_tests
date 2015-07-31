@@ -52,7 +52,7 @@ class TodoTestSpyder(scrapy.Spider):
     def parse_answered_questionary(self, response):
 
         questions = Selector(response=response).xpath("//div[@class='preg']")
-
+        # PARSE AND SAVE QUE FINAL QUESTIONARY
         for question in questions:
             question_text = question.xpath("span[@class='preg_text']").extract()[0]
             answers = question.xpath("div[@class='resp']/div[@class='resp_text']")
