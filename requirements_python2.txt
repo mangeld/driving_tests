@@ -1,0 +1,16 @@
+Mako==1.0.1
+MarkupSafe==0.23
+SQLAlchemy==1.0.8
+Scrapy==1.0.1
+Twisted==15.2.1
+alembic==0.7.7
+argparse==1.2.1
+cssselect==0.9.1
+lxml==3.4.4
+psycopg2==2.6.1
+pyOpenSSL==0.13
+queuelib==1.2.2
+six==1.9.0
+w3lib==1.12.0
+wsgiref==0.1.2
+zope.interface==4.1.2
